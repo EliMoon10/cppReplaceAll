@@ -1,4 +1,4 @@
-std::string ReplaceAll(std::string &str, const std::string& from, const std::string& to) { //ReplaceAllÀ» ÀÌ¿ëÇÏ¿© ¼ıÀÚ¸¦ #°ú °ø¹é Á¶ÇÕÀ¸·Î ¹Ù²Ş
+std::string ReplaceAll(std::string &str, const std::string& from, const std::string& to) {
 	size_t start_pos = 0;
 	while ((start_pos = str.find(from, start_pos)) != std::string::npos)
 	{
@@ -8,4 +8,4 @@ std::string ReplaceAll(std::string &str, const std::string& from, const std::str
 	return str;
 }
 
-//main¿¡ ³ÖÁö ¸»°í main¿ÜºÎ¿¡ ³Ö¾î¾ß ÇÕ´Ï´Ù.
+//mainì— ë„£ì§€ ë§ê³  mainì™¸ë¶€ì— ë„£ì–´ì•¼ í•©ë‹ˆë‹¤.
